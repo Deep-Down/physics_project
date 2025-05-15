@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.simulation-container {
+    height: 400px;
+    position: relative;
+    margin: 20px 0;
+    background: #e6e6e6;
+}
+
+.pendulum {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform-origin: top center;
+    transform: translateX(-50%);
+}
+
+.pivot {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -5px;
+}
+
+.string {
+    width: 2px;
+    background: black;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.bob {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: -14px;
+}
